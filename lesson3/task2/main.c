@@ -1,9 +1,10 @@
 #include <stdio.h>
+#include <limits.h>
 
 int main(int argc, char const *argv[])
 {
     int nums[5];
-    int min = 0;
+    int min = INT_MAX;
     printf("Input five numbers:\n");
     scanf("%d%d%d%d%d", &nums[0], &nums[1], &nums[2], &nums[3], &nums[4]);
 
